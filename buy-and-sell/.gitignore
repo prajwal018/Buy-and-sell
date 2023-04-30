@@ -1,0 +1,18 @@
+# IDE files
+.vscode/
+
+# Dependency directories
+node_modules/
+
+# Cache directories
+.angular/cache/
+
+# Build output directories
+/dist/
+/tmp/
+
+# Environment variables file
+.env
+
+# Other project-specific files to ignore
+*.log

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<div class="content-box">
+  <h3>Send the owner a message:</h3>
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <label> Your email: </label>
+      <br />
+      <input
+        name="email"
+        style="width: 90%; margin: 10px"
+        [(ngModel)]="email"
+      />
+    </div>
+    <div class="grid-item">
+      <label> Your message: </label>
+      <textarea
+        name="message"
+        rows="5"
+        style="width: 90%; margin: 10px"
+        [(ngModel)]="message"
+      ></textarea>
+    </div>
+    <div class="grid-item">
+      <button (click)="sendMessage()" style="width: 93.5%; margin: 10px">
+        Send
+      </button>
+    </div>
+  </div>
+</div>

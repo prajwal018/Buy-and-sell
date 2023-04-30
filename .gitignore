@@ -1,0 +1,26 @@
+# Dependency directories
+/node_modules/
+/angular/node_modules/
+/hapi/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Build output directories
+/angular/dist/
+/hapi/dist/
+/angular/tmp/
+/hapi/tmp/
+
+# Environment variables files
+/angular/.env
+/hapi/.env
+
+# IDE files
+/angular/.vscode/
+/hapi/.vscode/
+/angular/.idea/
+/hapi/.idea/
+
+# Other project-specific files to ignore
+.DS_Store
+Thumbs.db
